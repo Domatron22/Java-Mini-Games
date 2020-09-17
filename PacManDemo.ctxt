@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=PacManDemo
+comment1.params=W\ H
+comment1.target=void\ init(int,\ int)
+comment10.params=e
+comment10.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment11.params=e
+comment11.target=void\ keyTyped(java.awt.event.KeyEvent)
+comment2.params=
+comment2.target=void\ start()
+comment3.params=
+comment3.target=void\ stop()
+comment4.params=
+comment4.target=void\ run()
+comment5.params=
+comment5.target=void\ endGame()
+comment6.params=g
+comment6.target=void\ update(java.awt.Graphics)
+comment7.params=g
+comment7.target=void\ paint(java.awt.Graphics)
+comment8.params=
+comment8.target=void\ addNotify()
+comment9.params=e
+comment9.target=void\ keyPressed(java.awt.event.KeyEvent)
+numComments=12
