@@ -1,0 +1,30 @@
+#BlueJ class context
+comment0.params=cl
+comment0.target=BSRectangle(int)
+comment0.text=\r\n\ Default\ Constructor\ for\ objects\ of\ class\ Ball\r\n
+comment1.params=rX\ rY\ w\ h\ mY\ mX
+comment1.target=BSRectangle(int,\ int,\ int,\ int,\ int,\ int)
+comment10.params=
+comment10.target=void\ drawRect()
+comment10.text=public\ void\ changeDirection()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ moveX\ \=\ moveX*-1;\r\n\ \ \ \ \ \ \ \ moveY\ \=\ moveY*-1;\r\n}
+comment11.params=gr
+comment11.target=void\ paint(java.awt.Graphics)
+comment2.params=
+comment2.target=int\ getWidth()
+comment2.text=\r\n\ getMethods\r\n
+comment3.params=
+comment3.target=int\ getHeight()
+comment4.params=
+comment4.target=int\ getX()
+comment5.params=
+comment5.target=int\ getY()
+comment6.params=
+comment6.target=int\ getRight()
+comment7.params=
+comment7.target=int\ getBottom()
+comment8.params=cl
+comment8.target=void\ setColor(int)
+comment8.text=public\ void\ moveRectangle(int\ w,\ int\ h)\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ x\ \=\ x\ +\ moveX;\r\n\ \ \ \ \ \ \ \ y\ \=\ y\ +\ moveY;\r\n\ \ \ \ \ \ \ \ if(x+diameter\ >\=\ w\ ||\ x\ <\=\ 0)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ moveX\ \=\ moveX*-1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ if(y+\ diameter\ >\=\ h\ ||\ y\ <\=\ 0)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ moveY\ \=\ moveY*-1;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ update();\r\n\ \ \ \ }\r\n\ \ \ \ public\ void\ update()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ centerX\ \=\ x\ +\ radius;\r\n\ \ \ \ \ \ \ \ centerY\ \=\ y\ +\ radius;\r\n}
+comment9.params=S
+comment9.target=boolean\ shotCollision(Shot)
+numComments=12

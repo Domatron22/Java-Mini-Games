@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=HighScores
+comment1.params=
+comment1.target=HighScores()
+comment2.params=evt
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=evt
+comment3.target=void\ exit(java.awt.event.ActionEvent)
+comment4.params=u
+comment4.target=void\ currentUser(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getUser()
+comment6.params=s
+comment6.target=void\ setUser(java.lang.String)
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8
